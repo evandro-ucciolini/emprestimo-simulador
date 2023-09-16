@@ -1,15 +1,16 @@
-const valorEmprestimo = 5000
-const nParcelas = 1
+const valorEmprestimo = 2385
+const nParcelas = 12
 
-if (valorEmprestimo >= 1000 && valorEmprestimo < 5001) {
+if (valorEmprestimo >= 1000 && valorEmprestimo < 5001 && nParcelas <= 12) {
 
-    // 5 % de Juros calculados no valor das parcelas, também, somados em cada uma delas.
+    // 16 % de Juros calculados no valor das parcelas, também, somados em cada uma delas.
 
     const parcelamento = valorEmprestimo / nParcelas
-    const jurosParcelas = parcelamento * 5 / 100
-    const parcJuros = parcelamento + jurosParcelas
+    const jurosParcelas = parcelamento * 16 / 100
+    const parcJuros = (parcelamento + jurosParcelas).toFixed(2)
+    const totalComjuros = (parcJuros * nParcelas).toFixed(2)
 
-    console.log(`Você pagará ${nParcelas} parcelas no valor de R$ ${parcJuros}.`)
+    console.log(`Você pagará ${nParcelas} parcelas no valor de R$ ${parcJuros}. Nessas condições, você pagará ao todo R$ ${totalComjuros}.`)
 
 } else {
 

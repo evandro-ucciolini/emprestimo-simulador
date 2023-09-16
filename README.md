@@ -1,12 +1,18 @@
 # emprestimo-simulador
 
-SIMULADOR DE EMPRÉSTIMO.
+SIMULADOR DE EMPRÉSTIMO
 
-Este exercício tem como objetivo a criação de um sitema de empréstimo que disponibiliza valores entre R$ 1.000,00 e R$ 5.000,00 para contratação, calculando 5 % de juros do valor da parcela e somando este com o valor de cada uma delas. 
+Características: 
 
+- Permite simular a contratação de valores entre R$1.000,00 à R$ 5.000,00.
+- Possibilitando o parcelamento em até 12 vezes.
+- Juros de 16% com base nas parcelas e somado à cada uma delas.
+- Imprime também o valor total do empréstimo a ser pago com juros, de acordo com o número de parcelas.
+
+Este exercício tem como objetivo a criação de um sitema de empréstimo
 Realizado com base nas aulas de variáveis e condicionais, utilizando:
 
-- Condicionais lógicas (&&)
-- If e Else
-- Opredores matemáticos
-- Funções git para atualizar no github. 
+- Condicionais lógicos e condicionais
+- Operadores matemáticos
+- Funções git para praticar e atualizar no github. 
+- Tofixed para limitar a impressão de números após a vírgula dos valores das parcelas.
