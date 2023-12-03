@@ -2,6 +2,9 @@
 
 SIMULADOR DE EMPRÉSTIMO
 
+![image](https://github.com/evandro-ucciolini/emprestimo-simulador/assets/144072777/436bf463-f165-4a1c-8d7e-830eb8ff14f2)
+
+
 Características: 
 
 - Permite simular a contratação de valores entre R$1.000,00 à R$ 5.000,00.
@@ -21,6 +24,6 @@ Como utilizar?
 
 O usuário deverá inserir um valor desejado para simulação de empréstimo, entre R$1.000,00 à R$5.000,00. Em seguida, deverá selecionar a quantidade de parcelas (limitada a 12 vezes) de acordo com suas condições, onde será aplicado juros de 16% ao mês, em cada parcela. Por fim, na conclusão da contratação, o sistema irá mostrar o número e o valor de cada parcela, também mostrando o valor total do empréstimo com juros a ser cobrado. 
 
-![image](https://github.com/evandro-ucciolini/emprestimo-simulador/assets/144072777/ed6f0f3b-4c7e-4f70-9532-0492ed49c89f)
+
 
 
